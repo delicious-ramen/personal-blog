@@ -1,0 +1,18 @@
+<header>
+  <nav>
+    <div data-controller="navbar">
+      <ul data-navbar-target="sidebar" class="sidebar">
+        <li data-action="click->navbar#hideSidebar"><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><%= link_to "Hafizmfadli", root_path %></li>
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Blog", posts_path %></li>
+      </ul>
+      <ul>
+        <li><%= link_to "Hafizmfadli", root_path %></li>
+        <li class="hideOnMobile"><%= link_to "About", about_path %></li>
+        <li class="hideOnMobile"><%= link_to "Blog", posts_path %></li>
+        <li class="menu-button" data-action="click->navbar#showSidebar"><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
