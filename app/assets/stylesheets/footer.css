@@ -1,0 +1,29 @@
+footer{
+    background-color: darkgray;
+}
+
+footer .description {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+footer .social {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+footer .social li {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+}
