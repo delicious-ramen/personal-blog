@@ -1,5 +1,9 @@
 nav{
+    top: 0;
+    position: sticky;
+    grid-area: navbar;
     background-color: darkgray;
+    padding: 1em;
 }
 
 nav ul{

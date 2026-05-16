@@ -1,11 +1,12 @@
 footer{
+    grid-area: footer;
     background-color: darkgray;
+    padding: 2em;
 }
 
 footer .description {
     display: flex;
     justify-content: space-around;
-    padding: 20px 0;
 }
 
 footer .social {
